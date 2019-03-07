@@ -1,11 +1,11 @@
 # Basic React-Router-Tutorial
 
 ## Installation
-> ##### react-router<br/>
+> ### react-router<br/>
 > &ensp;&ensp;provides the core routing components and functions for React Router applications.
-> ##### react-router-dom<br/>
+> ### react-router-dom<br/>
 > &ensp;&ensp;provide environment specific of browser
-> ##### react-router-native<br/>
+> ### react-router-native<br/>
 > &ensp;&ensp;provide environment specific of React Native
 
 ## The Router
@@ -100,11 +100,11 @@ function App() {
 ## What does the &#60;Route&#62; render?
 > Routes have three props that can be used to define what should be rendered when the route’s path matches.<br/>
 Only one should be provided to a &#60;Route&#62; element.<br/>
-> ##### component<br/>
+> ### component<br/>
 > &ensp;&ensp;A React component. When a route with a component prop matches, the route will return a new element whose type is the provided React component &#40;created using React.createElement&#41;.<br/>
-> ##### render<br/>
+> ### render<br/>
 > &ensp;&ensp;A function that returns a React element 5. It will be called when the path matches. This is similar to component, but is useful for inline rendering and passing extra props to the element.<br/>
-> ##### children<br/>
+> ### children<br/>
 > &ensp;&ensp;A function that returns a React element. Unlike the prior two props, this will always be rendered, regardless of whether the route’s path matches the current location.<br/>
 ```
 <Route path='/page' component={Page}/>
@@ -134,7 +134,7 @@ function Roster() {
 	);
 }
 ```
-> ##### &#47;roster&#47;:number<br/>
+> ### &#47;roster&#47;:number<br/>
 > &ensp;&ensp;This route uses a path param to capture the part of the pathname that comes after /roster.
 It can be useful to group routes that share a common prefix in the same component.<br/>
 
